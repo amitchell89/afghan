@@ -1,0 +1,285 @@
+body {
+	background: #ffffff;
+	color: #888888;
+	font-family: Helvetica, Arial, Sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#Header {
+ border-bottom: 3px solid #ef472d;
+ font-size: 14px;
+ line-height: 22px;
+ padding: 10px 0px;
+}
+#Header a {
+	color: #888888;
+	font-weight: normal;
+}
+.headerwrap {
+	width: 775px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 10px;
+}
+.headline {
+	margin: 0px 30px 0px 10px;
+	float: left;	
+}
+ul {
+	text-align: left;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	padding: 0 10px;
+}
+#albuminfo {
+	margin-top: 10px;
+	height: 520px;
+	width: 775px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.album {
+	height: auto;
+	width: 500px;
+	box-shadow: 3px 3px 5px #888888;
+	float: left;
+	margin: 10px;
+}
+.text {
+	margin: 0px 10px;
+	padding: 25px 10px 10px 0px;
+	width: 210px;
+	height: auto;
+	float: left;
+	font-size: 16px;
+	line-height: 18px;
+}
+a {
+	font-weight: bold;
+	color: #ef472d;
+	text-decoration: none;
+}
+.BigText {
+	font-family: 'Germania One', Helvetica;
+	font-size: 30px;
+	color: #ef472d;
+}
+#footer {
+	background: #ffffff;
+	color: #ef472d;
+	width: 100%;
+	border-top: 3px solid #ef472d;
+	text-align: center;
+	padding: 5px;
+	margin-top: 118px;
+	font-size: 12px;
+}
+.linklogo {
+	height: 65px;
+	width: 65px;
+	margin: 10px 5px;
+}
+.booking {
+	text-align: center;	
+}
+.mailinglist {
+	text-align: center;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width:300px;
+	height:190px;
+}
+.likebox {
+	height: 68px;
+	width: 190px;
+	float: right;
+	position: relative;
+	right: 10px;
+}
+.responsive-container {
+	width: 640px; 
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.responsive-container iframe {
+	margin: 10px;
+	width: 620px; 
+	height: 373px;
+	}
+.RNplayer {
+	margin: 10px;
+	width:230px;
+	height:371px;
+}
+.shows {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 184px;
+	Text-align: center;
+}
+
+
+@media (max-width: 790px) {
+#albuminfo {
+	width: 600px;
+	height: 448px;
+}
+.album {
+	width: 371px;	
+}
+.text {
+	width: 500px;
+	text-align: center;
+	margin: 0px 0px 0px 40px;
+	padding: 10px 10px 10px 10px;
+	}
+.RNplayer {
+	width: 189px;
+}
+.headerwrap {
+	width: 600px;
+}
+.headline {
+	width: 280px;
+	margin: 0px 20px 0px 10px;
+}
+#Header {
+	line-height: 18px;
+}
+.likebox {
+	top: -8px;
+	right: 15px;
+}
+.responsive-container {
+	width: 600px; 
+	height: 405px;
+}
+.responsive-container iframe{
+	width: 580px; 
+	height: 349px;
+}
+}
+
+@media (max-width: 620px) {
+#albuminfo {
+	width: 100%;
+	height: 798px;
+	text-align: center;
+	margin-top: 58px;
+}
+.album {
+	width: 340px;	
+	float: none;
+}
+.text {
+	width: auto;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	}
+.RNplayer {
+	width: 340px;
+}
+.responsive-container {
+	margin-top: 10px;
+	width: 100%; 
+	height: 289px;
+}
+.responsive-container iframe{
+	width: 400px; 
+	height: 241px;
+}
+.shows {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	height: 184px;
+	Text-align: center;
+}
+.likebox {
+	float:none;
+	top: 0;
+	right: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 84px;
+}
+.headerwrap {
+	width: 100%;
+	text-align: center;
+	height: 70px;
+	padding: 0px;
+}
+.headline {
+	float: none;
+	margin: 0px;
+	position: relative;
+	top: -70px;
+}
+li {
+	display: inline;
+}
+ul {
+	text-align: center;
+	position: relative;
+	top: -65px;
+}
+}
+
+@media (max-width: 450px) {
+	#albuminfo {
+	height: 750px;}
+.album {
+	width: 280px;
+}
+.RNplayer {
+	width: 280px; 
+}
+.responsive-container {
+	margin-top: 10px;
+	width: 100%; 
+	height: 250px;
+}
+.responsive-container iframe{
+	width: 320px; 
+	height: 193px;
+}
+.linklogo {
+	height: 50px;
+	width: 50px;
+}
+.shows {
+	height: 236px;
+}
+}
+
+@media (max-width: 360px) {
+.linklogo {
+	height: 45px;
+	width: 45px;
+}
+.responsive-container {
+	margin-top: 10px;
+	width: 100%; 
+	height: 250px;
+}
+.responsive-container iframe{
+	width: 280px; 
+	height: 193px;
+}
+#albuminfo {
+	height: 756px;
+}
+}
